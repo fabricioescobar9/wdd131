@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+header {
+    grid-column: 1 / 5;
+    background-color: darkblue;
+    color: white;
+    padding: 2rem;
+    height: 7vh;
+    font-family: Cambria;
+
+}
+
+.navigation {
+    grid-column: 1 / 5;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    height: 5vh;
+}
+
+main {
+    background-color: darkgoldenrod;
+    grid-column: 1 / 4;
+    padding: 2rem;
+    height: 39vh;
+    
+}
+
+aside {
+    background-color: lightskyblue;
+    grid-column: 4 / 5;
+    padding: 2rem;
+    height: 39vh;
+}
+
+footer {
+    grid-column: 1 / 5;
+    background-color: darkblue;
+    color: white;
+    padding: 2rem;
+    height: 20vh;
+    text-align: center;
+}
