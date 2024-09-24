@@ -5,50 +5,48 @@
 
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 100vh;
+    grid-template: 1fr 3fr 2fr / 1fr 1fr 1fr 1fr;
 }
 
 header {
-    grid-column: 1 / 5;
-    background-color: darkblue;
-    color: white;
+    background: #103F79;
+    color: #F3B229;
     padding: 2rem;
-    height: 7vh;
-    font-family: Cambria;
-
-}
-
-.navigation {
     grid-column: 1 / 5;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    padding: 0.5rem;
-    height: 5vh;
 }
 
 main {
-    background-color: darkgoldenrod;
-    grid-column: 1 / 4;
+    background: #F3B229;
+    color: #103F79;
     padding: 2rem;
-    height: 39vh;
-    
+    grid-column: 1 / 4;
 }
 
 aside {
-    background-color: lightskyblue;
-    grid-column: 4 / 5;
     padding: 2rem;
-    height: 39vh;
+    grid-column: 4 / 5;
 }
 
 footer {
-    grid-column: 1 / 5;
-    background-color: darkblue;
-    color: white;
+    background: #103F79;
+    color: #F3B229;
     padding: 2rem;
-    height: 20vh;
     text-align: center;
+    grid-column: 1 / 5;
+}
+
+.navigation {
+	display: flex;
+	background-color: #333;
+	align-items: center;
+}
+
+.navigation a {
+    display: block;
+	color: #eee;
+	padding: 0.75rem;
+	text-decoration: none;
+	text-align: center;
+    flex: 1 1 auto;
 }
