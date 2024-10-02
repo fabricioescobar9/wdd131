@@ -99,17 +99,10 @@ main {
     margin: 0px 70px 5px 70px; 
 }
 
-.city img {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-}
-
-.city figcaption {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
+figcaption {
+    font-style: italic;
     text-align: center;
-    align-self: flex-end;
-    margin-bottom: 1.5rem;
+    margin: 0 0 1.5rem 0;
 }
 
 .city p{
