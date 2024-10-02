@@ -7,14 +7,15 @@
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, I'm Fabricio Axel Escobar Cruz, This an example of my home page.">
     <meta name="author" content="Fabricio Escobar">
     <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>WDD 131: Dynamic Web Fundamentals - <span>Fabricio A. Escobar</span></h1>
-        <nav>
-            <a href="#" title="My LinkedIn profile">LinkedIn</a></li>
-            <a href="#" title="Here is where I study">I-Learn</a></li>
-            <a href="#" title="This is my favorite scripture">Scripture</a></li>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span class="highlight">Fabricio A. Escobar</span></h1>
+        <nav class="navigation">
+            <a href="https://www.linkedin.com/in/fabricio-a-escobar9/" title="My LinkedIn profile">LinkedIn</a></li>
+            <a href="https://byui.instructure.com/" title="Here is where I study">I-Learn</a></li>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=eng&id=p17#p17" title="This is my favorite scripture">Scripture</a></li>
             <a href="#" title="Coming soon...">Final Project</a></li>
         </nav>
     </header>
@@ -57,8 +58,8 @@
         </section>
     </main>
     <footer>
-        <p>©<span id="currentyear"></span> ⭐ Fabricio Axel Escobar Cruz ⭐ Argentina ⭐</p>
-        <p id="lastModified"></p>
+        <p><span id="currentyear"></span> ⭐ Fabricio Axel Escobar Cruz ⭐ Argentina ⭐</p>
+        <p id="lastModified" class="highlight"></p>
     </footer>
 </body>
 </html>
