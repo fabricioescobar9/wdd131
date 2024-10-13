@@ -1,4 +1,14 @@
-@media only screen and (min-width: 1180px) {
+@media only screen and (min-width: 900px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #133b5b;
+        margin-bottom: 1.5rem;
+        padding: 1.7rem 0;
+    }
+
 	.navigation {
 		display: flex;
 	}

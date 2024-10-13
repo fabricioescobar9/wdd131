@@ -12,26 +12,24 @@
 /* Main Title */
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #133b5b;
     margin-bottom: 1.5rem;
-    padding: 1.7rem;
+    padding: 1.7rem 0;
 }
 
 h1 {
+    text-align: left;
     color: #fbd455;
     font-size: 2.3rem;
+    padding: 2rem;
 }
 
 
-/* Bar Menu */
+/* Bar Menu (related with show) */
 
 .navigation {
 	list-style: none;
 	margin: 0 auto;
-	max-width: 760px;
 }
 
 .navigation li {
@@ -40,7 +38,8 @@ h1 {
 
 .navigation a {
 	display: block;
-    padding: .5rem 1.3rem;
+    text-align: center;
+    padding: 1.5rem;
 	text-decoration: none;
     background-color: #133b5b;
 	color: #fbd455;
@@ -53,14 +52,13 @@ h1 {
 	background-color: #fbd455;
 }
 
-
 /* Hamburger Menu */
 
 #menu {
 	display: block;
     position: absolute;
-    top: 5px;
-    right: 10px;
+    top: 30px;
+    right: 20px;
     padding: 1rem;
 	font-size: 3rem;
 	font-weight: 700;
