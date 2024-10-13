@@ -9,6 +9,10 @@
         padding: 1.7rem 0;
     }
 
+    nav {
+        margin: 0 1.3rem;
+    }
+
 	.navigation {
 		display: flex;
 	}
