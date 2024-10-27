@@ -1,0 +1,39 @@
+@media only screen and (min-width: 975px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #133b5b;
+        margin-bottom: 1.5rem;
+        padding: 1.7rem 0;
+    }
+
+    nav {
+        margin: 0 1.3rem;
+    }
+
+	.navigation {
+		display: flex;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+
+	#menu {
+		display: none;
+	} 
+
+	/* div {
+		margin: 1rem auto;
+		grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+	}*/
+}
+
+
+	
