@@ -57,8 +57,8 @@ h1 {
 #menu {
 	display: block;
     position: absolute;
-    top: 30px;
-    right: 20px;
+    top: 35px;
+    right: 15px;
     padding: 1rem;
 	font-size: 3rem;
 	font-weight: 700;
@@ -85,17 +85,6 @@ h1 {
 
 /*---------------------------------------------------------------------------*/
 
-/* main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    grid-gap: 1rem;
-    place-items: center;
-    box-sizing: border-box;
-    margin: 1rem auto;
-    max-width: 80%;
-} */
-
-
 /* Home Title */
 
 h2 {
@@ -105,21 +94,19 @@ h2 {
     font-size: 2rem;
 }
 
-div {
+.card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(420px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(440px, auto));
     grid-gap: 1rem;
-    place-items: center;
     box-sizing: border-box;
-    margin: 1rem auto;
-    max-width: 90%;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
     background-color: #dddddd70;
     text-align: center;
     padding: 1rem;
-    margin: 0.5rem;
     border: 1px solid rgba(0,0,0,.1);
     height: 450px;
     
