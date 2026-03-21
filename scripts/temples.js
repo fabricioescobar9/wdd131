@@ -13,10 +13,10 @@ document.getElementById("lastModified").innerHTML = `Last Modification: ${lastMo
 
 const barMenu = document.querySelector(".navigation");
 const hamburgerButton = document.querySelector("#menu");
-const mainTitle = document.querySelector("maintitle");
+// const mainTitle = document.querySelector("maintitle");
 
 hamburgerButton.addEventListener("click", () => {
     barMenu.classList.toggle("show");
     hamburgerButton.classList.toggle("show");
-    mainTitle.classList.toogle("maintitle");
+    // mainTitle.classList.toogle("maintitle");
 });
