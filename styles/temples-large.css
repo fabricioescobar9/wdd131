@@ -5,6 +5,10 @@
 		align-items: center;
 		justify-content: space-between;
 	}
+	
+	nav {
+		display: flex;
+	}
 
 	.navigation {
 		flex-direction: row;
